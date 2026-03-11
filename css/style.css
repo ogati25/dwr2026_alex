@@ -1,0 +1,32 @@
+:root {
+    --primaria-fundo: #aaa;
+    --primaria-texto: #333;
+    --secundaria-fundo: #333;
+    --secundaria-texto: #fff;
+    --terciaria-fundo: #0a6;
+
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: var(--secundaria-fundo);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: var(--secundaria-texto);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a.active {
+    color: var();
+}
+
+.content {
+  padding: 16px;
+}
